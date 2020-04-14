@@ -1,0 +1,67 @@
+@import (less) "node_modules/powerbi-visuals-utils-interactivityutils/lib/index.css";
+@import (less) "node_modules/powerbi-visuals-utils-formattingutils/lib/index.css";
+
+@regularFontFamily: "Segoe UI", "wf_segoe-ui_normal", helvetica, arial, sans-serif;
+
+.pulseChart {
+    @fontSize: 11px;
+    font-family: @regularFontFamily;
+    stroke: none;
+    stroke-width: 1px;
+    outline: none;
+
+    .axisGraphicsContext {
+        font-family: @regularFontFamily;
+        font-size: @fontSize;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #777777;
+        shape-rendering: crispEdges;
+    }
+
+    .line {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 2px;
+    }
+
+    .xAxisNode {
+        font-size: @fontSize;
+
+        line {
+            display: none;
+        }
+
+        text {
+            fill: white;
+        }
+    }
+
+    .y {
+        font-size: @fontSize;
+
+        g.tick {
+            line {
+                opacity: 0.2;
+            }
+        }
+    }
+
+    .gaps .gap {
+        .gapNode {
+            fill: dimgrey;
+        }
+    }
+
+    .animationPlay,
+    .animationPause,
+    .animationReset,
+    .animationPrev,
+    .animationNext,
+    .animationToEnd {
+        cursor: pointer;
+    }
+}
