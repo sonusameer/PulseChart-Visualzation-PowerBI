@@ -6,7 +6,7 @@ Build Status Coverage Status
 
 Line chart annotated with key events. Perfect for story telling with data.
 
-
+![11](https://user-images.githubusercontent.com/53463381/79218207-ad2a7f80-7e6d-11ea-83ab-7806a73d2416.PNG)
 
 #Overview:
 
