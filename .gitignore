@@ -1,0 +1,12 @@
+
+node_modules
+coverage
+.DS_Store
+.tmp
+.api
+dist
+typings
+.api
+*.log
+.idea/*
+package-lock.json
